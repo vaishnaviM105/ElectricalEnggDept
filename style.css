@@ -80,11 +80,21 @@ p
 .item4
 {
     grid-area: item4;
+    display: flex;
+    justify-content: center;
+}
+
+.item4 img, .item5 img
+{
+    object-fit: contain;
+    width: 60%;
 }
 
 .item5
 {
     grid-area: item5;
+    display: flex;
+    justify-content: center;
 }
 
 .item6
